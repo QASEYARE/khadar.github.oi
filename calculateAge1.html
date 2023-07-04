@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+function ageCalculator(){
+var 
+userinput = document.getElementById("dateofbirth")
+var dob =new Date(userinput);
+
+if( userinput==null || userinput==''){
+document.getElementById("message").innerHTML="choose a date!";
+ return false;
+}
+else{
+ var dobYear = dob.getYear(); 
+var dobMonth = dob.getMonth(); 
+ var dobDate = dob.getDate();
+ var now = new Date();
+var currentYear = now.getYear();
+var currentMonth = now.getMonth();
+var currentDate = now.getDate();
+ var age ={};
+ var ageString ="";
+ yearAge =currentYear - dobYear;
+    yearAge--;
+}
+
+}
+
+    </script>
+</head>
+<body>
+ <h2>Calculate  age date of birthday</h2>  
+ <p>Enter date of birth:</p> 
+ <input type="date" id="dateofbirth">
+ <span id="message"></span>
+
+ <button type="submit" onclick="ageCalculator"()>Calculate age</button>
+
+ <h3 id="result"> </h3>
+
+
+</body>
+</html>
