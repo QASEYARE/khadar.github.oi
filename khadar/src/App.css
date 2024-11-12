@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+ margin: 80px;
+background-color: #c3c3c3;
+    justify-content: center;
+    padding: 20px;
+    font-family: arial;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+
+
+
+.h1{
+
+    font-size: 24;
+    margin-top: 30pxS;
+}
+
+.SocialIconsContainer {
+
+    background-color: blue;
+   
+}
+
+input{
+
+background-color: red;
+    margin-top: 12px;
+}
+h1{
+    font-size: 40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

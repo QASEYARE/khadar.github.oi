@@ -1,0 +1,87 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background-color: red;
+  color: #fff;
+ margin-top: 0px;
+ margin-bottom: 80px;
+ font-size: bold;
+}
+
+
+.navbar-left .logo {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: thistle;
+}
+
+.navbar-center .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  
+}
+.navbar-center .nav-links  :hover{
+  background-color: #333;
+  color: #c3c3c3;
+ 
+
+  
+}
+
+.navbar-center .nav-links li a {
+  color: #fff;
+  font-family: arial;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  outline: none;
+}
+
+.search-bar::placeholder {
+  color: #c3c3c3;
+}
+
+.cart-icon,
+.user-icon {
+  color: #f1f;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.cart-count {
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  background-color: darkseagreen;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.8em;
+}
+
+.signin-link,
+.signup-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.signin-link:hover,
+.signup-link:hover {
+  color: #c3c3c3;
+  text-decoration: none;
+}
